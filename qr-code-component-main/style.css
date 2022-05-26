@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+    background: #d5e1ef;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+.fondoQR{
+    width: 25rem;
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+}
+.fondoQR__img{
+    width: 23rem;
+    height: auto;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+.fondoQR__titulo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0.3rem 3rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.fondoQR__parrafo{
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    text-align: center;
+    margin-bottom: 3rem;;
+}
+.attribution{
+    margin-top: 1rem;
+}
+@media (min-width:375px){
+    /* .principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    } */
+}
